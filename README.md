@@ -31,6 +31,8 @@
 ```bash
 $ npm install
 ```
+##Node Version
+v16.15.1
 
 ## Running the app
 
