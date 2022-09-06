@@ -1,10 +1,10 @@
 import { Module } from '@nestjs/common';
 import { AuthModule } from './modules/auth/auth.module';
 import { UsuarioModule } from './modules/usuario/usuario.module';
-import { MongooseModule } from '@nestjs/mongoose';
 import { UsuarioSchema } from './modules/usuario/schemas/usuario.schema';
 import { Collection } from './shared/tabelas/collection';
 import { collections } from './shared/tabelas/collections';
+import { MongooseModule } from '@nestjs/mongoose';
 import { ConfigModule } from '@nestjs/config';
 
 @Module({
