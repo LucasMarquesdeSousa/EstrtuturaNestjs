@@ -4,7 +4,6 @@ import { UsuarioSchema } from './schemas/usuario.schema';
 import { UsuarioService } from './service/Usuario.service';
 import { Collection } from '../../shared/tabelas/collection';
 import { collections } from '../../shared/tabelas/collections';
-import {AppModule} from "../../app.module";
 
 @Module({
   imports: [
