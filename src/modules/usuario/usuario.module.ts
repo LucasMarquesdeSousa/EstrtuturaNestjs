@@ -4,6 +4,7 @@ import { UsuarioSchema } from './schemas/usuario.schema';
 import { UsuarioService } from './service/Usuario.service';
 import { Collection } from '../../shared/tabelas/collection';
 import { collections } from '../../shared/tabelas/collections';
+import { UsuarioController } from './controller/usuario.controller';
 
 @Module({
   imports: [
@@ -16,5 +17,6 @@ import { collections } from '../../shared/tabelas/collections';
   ],
   providers: [UsuarioService],
   exports: [UsuarioService],
+  controllers: [UsuarioController],
 })
 export class UsuarioModule {}

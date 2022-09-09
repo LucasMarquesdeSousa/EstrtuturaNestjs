@@ -1,8 +1,8 @@
 import { HttpException, HttpStatus, Injectable } from '@nestjs/common';
-import { PayloadInterface } from './payload.interface';
+import { PayloadInterface } from '../interface/payload.interface';
 import { JwtService } from '@nestjs/jwt';
-import { UsuarioInterface } from '../usuario/Interface/usuario.interface';
-import { UsuarioService } from '../usuario/service/Usuario.service';
+import { UsuarioInterface } from '../../usuario/Interface/usuario.interface';
+import { UsuarioService } from '../../usuario/service/Usuario.service';
 import * as bcrypt from 'bcrypt';
 
 @Injectable()
